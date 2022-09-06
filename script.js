@@ -1,3 +1,5 @@
+// BASIC JS
+
 // let x;
 // x = 75;
 // alert(x);
@@ -229,3 +231,52 @@
 // } else {
 //     alert("Login Failed !")
 // }
+
+// 8. Array
+
+// const fruits = ['Apple', 'Banana', 'Orange', 'Peer'];
+// console.log(fruits);
+// const vegetables = ['Spinach', 'Cabbage', 'Tamato']
+
+// joinmethod
+// let joinmethod = fruits.join();
+// console.log("This is the join method=", joinmethod);
+// console.log(typeof (fruits));
+
+// popmethod
+// let popmethod = fruits.pop();
+// console.log("This is pop method: ", fruits)
+
+// pushmethod
+// let pushmethod = fruits.push('chickoo');
+// console.log("This is push method", fruits);
+
+// shiftmethod
+// let shiftmethod = fruits.shift();
+// console.log("This Is shift method", fruits);
+
+// unshiftmethod
+// let unshiftmethod = fruits.unshift("Guava");
+// console.log("This is unshiftmethod: ", fruits);
+
+// splicemethod
+// let splicemethod = fruits.splice(1, 4, "Watermelon", "Kiwi", "Rawapple");
+// console.log("Thsi is splice method: ", fruits);
+
+// concat
+// let concatmethod = fruits.concat(vegetables);
+// console.log("This Is Concat Method", concatmethod);
+
+// slice
+// let slicemethod = fruits.slice(1, 4);
+// console.log("This Is Slice Method", slicemethod);
+
+// reverse
+// let reverse = fruits.reverse();
+// console.log(reverse);
+
+// sort
+// let sort = fruits.sort();
+// console.log(sort);
+// ====================================================================================================================================
+// Intermeditiate
