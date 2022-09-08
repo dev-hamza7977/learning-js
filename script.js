@@ -279,4 +279,56 @@
 // let sort = fruits.sort();
 // console.log(sort);
 // ====================================================================================================================================
-// Intermeditiate
+// Functions
+
+// Simple Function
+// function showMessage() {
+//     alert("hello everyone");
+// }
+// showMessage();
+// showMessage();
+
+// function printmessage() {
+//     console.log("This is function message");
+// }
+// printmessage();
+
+// Local Variable
+// function goodMessage() {
+//     let wish = "Good Night !";
+//     alert(wish);
+// }
+// goodMessage();
+// alert(wish);
+
+// Outer Variable
+// let username = "Hamza"
+// function admin() {
+//     let adminname = "This is the admin name : " + username;
+//     alert(adminname);
+// }
+// admin();
+// alert(username);
+
+// Outer variable (can be change with in the function)
+// let clientname = "Meghani"
+
+// function credentials() {
+//     clientname = "Hamza";
+//     let showcredentials = "Client Name : " + clientname;
+//     alert(showcredentials);
+// }
+// alert(clientname);
+// credentials();
+// alert(clientname);
+
+// let username = "Hamza"
+// function user() {
+//     username = "Meghani"
+//     let admin = "This is username : " + username;
+//     alert(admin);
+// }
+// alert(username);
+// user();
+// alert(username);
+
