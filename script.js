@@ -332,3 +332,57 @@
 // user();
 // alert(username);
 
+// If the local variable is available with in the function then the outer variable is not used by it.
+
+// let greetingMessage = "Welcome";
+
+// function wishing() {
+//     let greetingMessage = "Darkworld";
+//     let greetings = "Welcome to " + greetingMessage;
+//     alert(greetings);
+// }
+
+// wishing();
+
+
+// let studentName = "Meghani"
+
+// function studentid() {
+//     let studentName = "Hamza"
+//     let credential = "Student Name: " + studentName;
+//     alert(credential);
+// }
+
+// studentid();
+
+// Parameters/Arguments
+
+// function testingParameter(from, message) {
+//     alert(from + " " + message);
+// }
+
+// testingParameter("Hamza", "Good Night");
+// testingParameter("Meghani", "is frontend developer")
+
+// function practisngParameter(firstname, name, post) {
+//     console.log(firstname + " " + name + " : " + post);
+// }
+
+// practisngParameter("MEGHANI", "HAMZA", "FRONTEND DEVELOPER");
+// practisngParameter("MEGHANI", "MEHBOOB", "ALL CODER");
+// practisngParameter("MEGHANI", "HAMZA", "FULL STACK DEVELOPER");
+// practisngParameter("MEGHANI", "MEHBOOB", "FRONTEND DEVELOPER");
+
+// returning a value
+// function sum(a, b) {
+//     return (a + b);
+// }
+
+// let result = sum(1, 2);
+// alert(result);
+
+// function multiply(b, c) {
+//     return (b * c);
+// }
+// let result = multiply(1, 2);
+// alert(result);
