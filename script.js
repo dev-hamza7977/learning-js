@@ -386,3 +386,110 @@
 // }
 // let result = multiply(1, 2);
 // alert(result);
+
+// if else in function
+
+// function checkpassword(password) {
+//     if (checkpassword == "meghani9869") {
+//         return true;
+//     } else {
+//         return confirm("Sorry Its Wrong")
+//     }
+// }
+
+// let password = prompt("Enter Your Password")
+
+// if (checkpassword(password)) {
+//     alert("Access Granted")
+// } else {
+//     alert("Access Denied")
+// }
+
+// function checkAge(age) {
+//     if (age >= 18) {
+//         return true
+//     } else {
+//         return confirm("Do you have a permission")
+//     }
+// }
+
+// let age = prompt("Enter Your Age", 18)
+
+// function showMovie(age) {
+//     if (!checkAge(age)) {
+//         return;
+//     }
+
+//     alert("ADAS")
+// }
+
+// if (showMovie(age)) {
+//     alert("Acess Granted");
+// } else {
+//     alert("Acess Denied")
+// }
+
+// switchcase
+
+// var college = function (name, post) {
+//     switch (post) {
+//         case "principal":
+//             return `${name} have full access`
+//             break;
+//         case "vice principal":
+//             return `${name} have access to add and delete departments`
+//             break;
+//         case "supervisor":
+//             return `${name} have access to add and delete and edit in the course`
+//             break;
+//         case "HOD":
+//             return `${name} have access to change in subjects`
+//             break;
+//         case "professor":
+//             return `${name} have access to teachand change in chapters`
+//             break;
+//         case "student":
+//             return `${name} have acess to learn the course`
+//             break;
+//         default:
+//             return `You have readonly access`
+//     }
+// }
+// alert(college("Saima", "visitor"))
+
+
+// var company = function (name, post) {
+//     switch (post) {
+//         case "CEO":
+//             return `${name} have full access`
+//             break;
+//         case "DIRECTOR":
+//             return `${name} have access to take decisons`
+//             break;
+//         case "MANAGER":
+//             return `${name} have acess to manage company`
+//             break;
+//         default:
+//             return `You have only working access`
+//             break;
+//     }
+// }
+// alert(company("Masroor", "Employee"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
