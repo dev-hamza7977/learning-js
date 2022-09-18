@@ -39,3 +39,44 @@
 // items[2].innerHTML = "<b>To</b>";
 // items[3].style.color = "blue";
 // document.getElementsByClassName("list-group-item")[0].innerText = "Hello"
+
+// GET ELEMENT BY TAGNAME
+
+// var li = document.getElementsByTagName("li");
+// console.log(li);
+// li[0].textContent = "welcome to js";
+// li[1].innerText = "this is practise";
+// li[2].innerHTML = "<b>of javascript</b>";
+// li[3].style.backgroundColor = "yellow";
+// document.getElementsByTagName("li")[0].innerHTML = "Hello";
+
+// QUERY SELECTOR
+
+// var header = document.querySelector("#main-header")
+// header.style.borderBottom = "solid 20px cyan"
+
+// var input = document.querySelector("input")
+// input.value = "Test"
+
+// var submit = document.querySelector('input[type="submit"]')
+// submit.value = "SEND"
+
+// var items = document.querySelector(".list-group-item");
+// items.style.backgroundColor = "#A9A9A9"
+
+// var items = document.querySelector(".list-group-item:last-child");
+// items.style.backgroundColor = "white"
+
+// var items = document.querySelector(".list-group-item:nth-child(3)");
+// items.style.backgroundColor = "#A9A9A9"
+
+
+// var items = document.querySelector(".list-group-item:nth-child(2)");
+// items.style.backgroundColor = "#white"
+
+// QUERY SELECTOR ALL
+
+// var titles = document.querySelectorAll(".title")
+// console.log(titles)
+
+// titles[0].innerHTML = "Welcome To <b>WEBWONDERS<b> !"
