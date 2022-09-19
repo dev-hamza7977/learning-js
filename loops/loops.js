@@ -104,3 +104,62 @@
 
 // }
 
+// WHILE LOOP
+
+// let fruits = ["APPLE", "BANANA", "CHICKOO", "DRAGON FRUIT", "FIG"]
+
+// let test = ""
+// let i;
+// i = 0;
+// while (i < 5) {
+//     test += fruits[i] + "<br>"
+//     i++
+// }
+
+// document.getElementById("demo").innerHTML = test;
+
+// const vehicles = ["CARS", "CYCLES", "BIKES", "TRUCKS", "BOATS", "AEROPLANES", "HELECOPTERS", "TRAINS", "MONORAIL", "METROS"]
+
+// let test = "<ul>"
+// let i;
+// i = 0;
+// while (i < 10) {
+//     test += "<li>" + vehicles[i] + "</li>"
+//     i++
+// }
+
+// test += "</ul>"
+
+// document.getElementById("demo").innerHTML = test;
+
+// function onmouseOver(x) {
+//     x.style.backgroundColor = "yellow";
+//     x.style.border = "solid 20px red";
+// }
+
+// function onmouseOut(x) {
+//     x.style.backgroundColor = "white";
+//     x.style.border = "none";
+// }
+
+// DO WHILE LOOP
+// let test = "<ul>"
+// let i;
+// i = 0;
+// do {
+//     test += "<li>" + vehicles[i] + "</li>"
+//     i++
+// }
+// while (i < 10);
+// document.getElementById("demo").innerHTML = test;
+
+// const chocolates = ["DAIRYMILK", "GALAXY", "SNICKERS", "MUNCH", "FIVE STAR", "TOBLERONE", "HOMEMADE."]
+
+// let choclate = " ";
+// let i = 0;
+// do {
+//     choclate += chocolates[i] + "<br>"
+//     i++
+// }
+// while (i < 7);
+// document.getElementById("demo").innerHTML = choclate;
